@@ -11,7 +11,7 @@ const socials = [
 ]
 const Topbar = () => {
   return (
-    <div className="hidden md:block bg-slate-900 border-b border-gray-200 ">
+    <div className=" md:block bg-slate-900 border-b border-gray-200 ">
       <div className="px-6 container flex justify-between items-center py-3 text-gray-600">
         {/* <a
           href="mailto:official@bitshub.co"

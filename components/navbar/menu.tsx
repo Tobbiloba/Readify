@@ -19,7 +19,7 @@ const Menu = () => {
           onMouseLeave={() => setShowLaunchesMenu(false)}
           className="hover:text-[#ff6154] py-4"
         >
-          Launches {showLaunchesMenu && <LaunchesMenu />}
+          Home {showLaunchesMenu && <LaunchesMenu />}
         </div>
 
         <Link href={"/categories"} className="hover:text-[#ff6154]">
@@ -32,7 +32,7 @@ const Menu = () => {
         className="hover:text-[#ff6154] py-4"
         
         >
-            Community {showCommunityMenu && <CommunityMenu />}
+            Shop {showCommunityMenu && <CommunityMenu />}
         </div>
 
         <div className="hover:text-[#ff6154] py-4">Advertise</div>

@@ -16,7 +16,6 @@ import Cart from "../cart/cart";
 import Wishlist from "../wishlist/wishlist";
 import MobileMenu from "./mobile-navbar";
 
-
 interface NavbarProps {
   authenticatedUser?: any;
   notifications?: any;
@@ -35,9 +34,11 @@ const Navbar: React.FC<NavbarProps> = ({
   };
 
   return (
-    <div className="border-b py-2 md:py-0 px-4 md:px-6">
+    <div className="border-b py-0 md:py-0 px-4 md:px-6">
       <div className="flex items-center justify-between">
-        <MobileMenu />
+        <div className="lg:hidden">
+          <MobileMenu />
+        </div>
         <div className="flex items-center h-16 lg:w-[60rem] gap-12">
           <Logo />
           <div className="hidden lg:flex items-center h-fit flex-1">
@@ -46,9 +47,9 @@ const Navbar: React.FC<NavbarProps> = ({
           </div>
         </div>
 
-        {/* <div className="absolute right-1/2 translate-x-1/2 transform z-10">
+        <div className="transform z-10 hidden lg:flex">
           <Menu />
-        </div> */}
+        </div>
 
         <div className="flex items-center text-sm space-x-5 cursor-pointer">
           <div className="hidden lg:flex items-center gap-4">
