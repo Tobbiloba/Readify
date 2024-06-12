@@ -1,5 +1,6 @@
 
 import ActiveProducts from "@/components/active-products";
+import Hero from "@/components/hero/Hero";
 import { getActiveProducts } from "@/lib/server-actions";
 
 
@@ -14,7 +15,8 @@ const Home = async () => {
 
   return (
    <>
-   <div className="md:w-3/5 mx-auto py-10 px-6">
+   <div className="max-w-[100vw] overflow-x-hidden py-0">
+    <Hero />
     <ActiveProducts
     activeProducts={activeProducts}
     
