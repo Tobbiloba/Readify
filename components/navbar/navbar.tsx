@@ -58,10 +58,6 @@ const Navbar: React.FC<NavbarProps> = ({
           </div>
           {authenticatedUser ? (
             <>
-              {/* <Submit
-                products={products}
-                authenticatedUser={authenticatedUser}
-              /> */}
               <NotificationIcon notifications={notifications} />
               <Avatar authenticatedUser={authenticatedUser} />
             </>
