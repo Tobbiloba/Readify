@@ -7,8 +7,8 @@ import { Toaster } from "@/components/ui/sonner";
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Product Hunt Clone",
-  description: "A clone of Product Hunt built with Next.js",
+  title: "Readify",
+  description: "Your E-Book store",
 };
 
 export default function RootLayout({

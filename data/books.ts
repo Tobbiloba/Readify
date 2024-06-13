@@ -403,3 +403,6 @@ const books = [
         availableAmount: '6'
     }
 ]
+
+
+export default books;
