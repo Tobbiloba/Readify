@@ -76,3 +76,19 @@
 }
 
 @import "~@uploadthing/react/styles.css";
+
+
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* For Chrome */
+::-webkit-scrollbar-thumb {
+  background-color: #ff6154; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
