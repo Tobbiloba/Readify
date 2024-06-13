@@ -21,6 +21,7 @@ const nextConfig = {
           pathname: "/**",
         },
       ],
+      domains: ['demo2.pavothemes.com'], // Add the new domain here
     },
   };
   

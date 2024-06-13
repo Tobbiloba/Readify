@@ -285,7 +285,7 @@ const books = [
     {
         title: 'Silent Whispers',
         description: 'Quasi aspernatur id voluptas. Ipsam quae velit aut enim exercitationem.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/36.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/31.jpg',
         price: '$72.30',
         author: 'Jessica Lee',
         sku: 'H65478901',
@@ -300,7 +300,7 @@ const books = [
     {
         title: 'Lost in the Stars',
         description: 'Illo eum ut maxime. Nesciunt non vero occaecati perferendis consequatur.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/37.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/32.jpg',
         price: '$54.99',
         author: 'Ethan Harris',
         sku: 'I12340987',
@@ -315,7 +315,7 @@ const books = [
     {
         title: 'Eternal Night',
         description: 'Voluptas mollitia debitis qui. Est nisi aut harum molestias voluptatem.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/38.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/33.jpg',
         price: '$63.75',
         author: 'Olivia Martinez',
         sku: 'J87654321',
@@ -330,7 +330,7 @@ const books = [
     {
         title: 'Moonlit Journey',
         description: 'Sit consequatur doloribus adipisci maiores. Qui aut ipsa et rem.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/39.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/29.jpg',
         price: '$49.00',
         author: 'Sophia Roberts',
         sku: 'K09871234',
@@ -345,7 +345,7 @@ const books = [
     {
         title: 'Starlit Dreams',
         description: 'Sed eum vero nisi voluptatem. Commodi amet aut laborum.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/40.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/28.jpg',
         price: '$57.25',
         author: 'Liam Clark',
         sku: 'L87651234',
@@ -360,7 +360,7 @@ const books = [
     {
         title: 'Wonders of the Universe',
         description: 'Porro aut voluptas sint enim et. Dolorum corporis quia saepe.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/41.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/20.jpg',
         price: '$48.99',
         author: 'Mason Walker',
         sku: 'M12345678',
@@ -375,7 +375,7 @@ const books = [
     {
         title: 'Galactic Adventures',
         description: 'Repudiandae enim sint repellendus est. Autem voluptas dolores eos non.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/42.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/21.jpg',
         price: '$55.00',
         author: 'Ava Scott',
         sku: 'N98761234',
@@ -390,7 +390,7 @@ const books = [
     {
         title: 'Mystic Waters',
         description: 'Quisquam ut eaque id nostrum. Reiciendis doloribus quo qui amet.',
-        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/43.jpg',
+        thumbnail: 'https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/20.jpg',
         price: '$67.50',
         author: 'Emma Hall',
         sku: 'O12340987',

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+// import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
 
-const font = DM_Sans({ subsets: ["latin"] });
+// const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Readify",
@@ -21,7 +21,10 @@ export default function RootLayout({
     suppressHydrationWarning={true}
     
     lang="en">
-      <body className={font.className}>
+      <body 
+      className="dm-sans"
+      // className={font.className}
+      >
   
 
         

@@ -126,7 +126,7 @@ export default function Hero() {
         />
       </div>
       <div
-        className={`${styles.title} absolute left-[50%] lg:left-[75%] top-[40%] lg:top-[45%] flex flex-col justify-center lg:items-center text-white w-fit lg:text-center lg:w-[41rem]`}
+        className={`${styles.title} absolute left-[50%] w-[100vw] px-[1rem] lg:px-0 lg:left-[75%] top-[40%] lg:top-[45%] flex flex-col justify-center lg:items-center text-white lg:text-center lg:w-[41rem]`}
       >
         <p className="text-[13px] text-gray-200 font-[500]">
           A SALE FOR THE PAGES
@@ -144,8 +144,8 @@ export default function Hero() {
         <p className="text-[#ff6154] my-4 font-[600]">
           Online And In Stores Only
         </p>
-        <RoundedButton className=" rounded-full">
-          <div className="flex items-center font-[500] cursor-pointer text-[16px] gap-3 px-6 lg:px-10 py-3">
+        <RoundedButton className=" rounded-full w-fit">
+          <div className="flex items-center font-[500] w-fit cursor-pointer text-[16px] gap-3 px-6 lg:px-10 py-3">
             Shop Now
             <RiArrowRightSLine className="text-xl" />
           </div>
