@@ -2,16 +2,17 @@
 import ActiveProducts from "@/components/active-products";
 import Hero from "@/components/hero/Hero";
 import { getActiveProducts } from "@/lib/server-actions";
-import BestSellingBooks from "@/sections/best-selling/best-selling-books";
+import BestSellingBooks from "@/app/sections/best-selling/best-selling-books";
+import DealOfTheWeek from "@/app/sections/deals-of-the-week/deals-of-the-week";
 
 
 
 
 const Home = async () => {
 
-  const activeProducts = await getActiveProducts();
+  // const activeProducts = await getActiveProducts();
 
-  console.log (activeProducts, 'active products here')
+  // console.log (activeProducts, 'active products here')
 
 
   return (
@@ -19,10 +20,11 @@ const Home = async () => {
    <div className="max-w-[100vw] overflow-x-hidden py-0">
     <Hero />
     <BestSellingBooks />
-    <ActiveProducts
+    <DealOfTheWeek />
+    {/* <ActiveProducts
     activeProducts={activeProducts}
     
-    />
+    /> */}
    </div>
    </>
   );

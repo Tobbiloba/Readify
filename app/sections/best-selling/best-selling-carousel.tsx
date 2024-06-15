@@ -54,21 +54,16 @@ export default function BestSellingBookCarousel() {
         {books.map((book, i) => (
           <SwiperSlide
             key={i}
-            className="lg:border-l mt-10 px-2 lg:pl-4 border-gray-400 w-[100%]"
+            className="lg:border-l-[1px] mt-0 px-2 lg:pl-4 border-gray-300 w-[100%] group relative"
           >
-            <div className="relative w-fit h-fit group">
+            <div className="relative w-fit h-fit ">
               <Image
                 src={book.thumbnail}
                 width={200}
                 height={600}
-                className="w-[100%] rounded-xl h-[30rem]"
+                className="w-[100%] relative rounded-xl h-[25rem]"
                 alt={book.title}
               />
-
-              {/* <div className="">
-              <BsBag className="text-[18px] text-slate-500" />
-              <BsSuitHeart className='text-[18px] text-slate-500'/>
-              </div> */}
             </div>
             <h1 className="mt-6 text-[17px] lg:text-xl font-bold text-slate-700 truncate">
               {book.title}
@@ -78,8 +73,8 @@ export default function BestSellingBookCarousel() {
               <p>5</p>
             </div>
 
-            <p className="text-red-600 text-[14px]">{book.author}</p>
-            <h1 className="text-2xl font-bold mt-2 text-[#ff6154]">
+            <p className="text-slate-400 text-[14px]">{book.author}</p>
+            <h1 className="text-xl lg:text-2xl font-bold mt-2 text-[#ff6154]">
               {book.price}
             </h1>
           </SwiperSlide>

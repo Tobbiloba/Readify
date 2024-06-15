@@ -70,7 +70,7 @@ export default function Hero() {
   };
 
   return (
-    <main onMouseMove={manageMouseMove} className={`${styles.main}`}>
+    <main onMouseMove={manageMouseMove} className={`${styles.main} border border-black`}>
       <div ref={plane1} className={styles.plane}>
         <Image
           src={floating1} // update paths as needed
