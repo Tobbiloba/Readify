@@ -61,7 +61,7 @@ export default function BestSellingBookCarousel() {
                 src={book.thumbnail}
                 width={200}
                 height={600}
-                className="w-[100%] relative rounded-xl h-[25rem]"
+                className="w-[100%] relative rounded-xl h-[15rem] lg:h-[25rem]"
                 alt={book.title}
               />
             </div>
