@@ -5,6 +5,7 @@ import { getActiveProducts } from "@/lib/server-actions";
 import BestSellingBooks from "@/app/sections/best-selling/best-selling-books";
 import DealOfTheWeek from "@/app/sections/deals-of-the-week/deals-of-the-week";
 import Trending from "../sections/trending/trending";
+import Review from "../sections/reviews/review";
 
 
 
@@ -23,6 +24,7 @@ const Home = async () => {
     <BestSellingBooks />
     <DealOfTheWeek />
     <Trending />
+    <Review />
     {/* <ActiveProducts
     activeProducts={activeProducts}
     
