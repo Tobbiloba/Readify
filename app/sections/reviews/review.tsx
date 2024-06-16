@@ -1,6 +1,5 @@
 import React from "react";
 import ReviewCarousel from "./review-carousel";
-// https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/h1-bg2.jpg
 const Review = () => {
   return (
     <div

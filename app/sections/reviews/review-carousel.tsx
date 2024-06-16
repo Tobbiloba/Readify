@@ -31,7 +31,7 @@ const ReviewCarousel = () => {
       className="mySwiper w-[100%] pb-10 h-[16rem]"
     >
       {reviews.map((review, i) => (
-        <SwiperSlide key={i} className="">
+        <SwiperSlide key={i} className="cursor-pointer">
           <div className="flex flex-col items-center gap-12">
             <h1 className="max-w-[24rem] font-bold text-xl text-center text-slate-800">
               {review.review}

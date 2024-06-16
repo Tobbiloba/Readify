@@ -6,6 +6,7 @@ import BestSellingBooks from "@/app/sections/best-selling/best-selling-books";
 import DealOfTheWeek from "@/app/sections/deals-of-the-week/deals-of-the-week";
 import Trending from "../sections/trending/trending";
 import Review from "../sections/reviews/review";
+import PopularBooks from "../sections/popular-books/popular-books";
 
 
 
@@ -25,6 +26,7 @@ const Home = async () => {
     <DealOfTheWeek />
     <Trending />
     <Review />
+    <PopularBooks />
     {/* <ActiveProducts
     activeProducts={activeProducts}
     
